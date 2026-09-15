@@ -1,0 +1,7 @@
+Experiment,Model,Accuracy,Precision,Recall,F1,ROC-AUC
+E1 Baseline,Logistic Regression,0.9149 ± 0.0008,0.3592 ± 0.0028,0.7128 ± 0.0053,0.4777 ± 0.0030,0.8653 ± 0.0023
+E2 + ConnBuffer,Logistic Regression,0.9831 ± 0.0001,0.9607 ± 0.0038,0.7195 ± 0.0045,0.8228 ± 0.0019,0.9088 ± 0.0020
+E3 + Propagation,Logistic Regression,0.9828 ± 0.0001,0.9542 ± 0.0026,0.7195 ± 0.0045,0.8204 ± 0.0021,0.9093 ± 0.0014
+E4 Full Features,Logistic Regression,0.9780 ± 0.0005,0.8514 ± 0.0090,0.7242 ± 0.0048,0.7826 ± 0.0043,0.9168 ± 0.0017
+E5 Model Comparison,Random Forest,0.9840 ± 0.0004,0.9431 ± 0.0008,0.7518 ± 0.0066,0.8366 ± 0.0044,0.9902 ± 0.0006
+E5 Model Comparison,XGBoost,0.9539 ± 0.0004,0.5434 ± 0.0021,0.9780 ± 0.0027,0.6986 ± 0.0015,0.9924 ± 0.0007

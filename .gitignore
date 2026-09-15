@@ -1,0 +1,12 @@
+# Raw & processed data (too large for GitHub, regenerate via notebooks)
+data/raw/flights.csv
+data/processed/processed_flights.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
